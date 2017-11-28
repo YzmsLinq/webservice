@@ -10,3 +10,4 @@ httpd = socketserver.TCPServer(("",PORT),handler)
 
 print("HTTP server is at : http://127.0.0.1:%d/" % PORT)
 httpd.serve_forever()
+#需在程序目录中包含index.html文件
